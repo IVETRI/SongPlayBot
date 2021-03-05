@@ -1,7 +1,7 @@
 import io
 import sys
 import traceback
-from Sherlock import app
+from SongPlayRoBot import app
 from pyrogram import Client, filters
 from config import OWNER_ID
 
