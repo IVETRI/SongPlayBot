@@ -6,9 +6,9 @@ Open Source Bot 👨🏻‍💻
 Demo : [SongPlayRoBot](https://t.me/SongPlayRoBot) 💃🏻
 
 Easy To Deploy 🤗
-### Click Below Image to Deploy
+# Click Below Image to Deploy
 [![Deploy](https://telegra.ph/file/cb7b0aead06c96955323e.jpg)](https://heroku.com/deploy?template=https://github.com/IVETRI/SongPlayRoBot.git)
-## DEPLOY
+# DEPLOY
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/IVETRI/SongPlayRoBot.git)
 # Group
 You can also join our support group [here!](https://t.me/TamilSupport)
