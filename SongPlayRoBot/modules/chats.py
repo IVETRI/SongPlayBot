@@ -1,8 +1,8 @@
 from config import OWNER_ID
 from pyrogram import filters
-from Sherlock import app
-from Sherlock.Sherlock import get_arg
-from Sherlock.sql.chat_sql import load_chats_list, remove_chat_from_db
+from SongPlayRoBot import app
+from SongPlayRoBot.SongPlayRoBot import get_arg
+from SongPlayRoBot.sql.chat_sql import load_chats_list, remove_chat_from_db
 from io import BytesIO
 
 
