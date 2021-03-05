@@ -5,9 +5,9 @@ from pytube import YouTube
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
 from youtubesearchpython import VideosSearch
-from Sherlock.Sherlock import ignore_blacklisted_users, get_arg
-from Sherlock import app, LOGGER
-from Sherlock.sql.chat_sql import add_chat_to_db
+from SongPlayRoBot.SongPlayRoBot import ignore_blacklisted_users, get_arg
+from SongPlayRoBot import app, LOGGER
+from SongPlayRoBot.sql.chat_sql import add_chat_to_db
 
 
 def yt_search(song):
