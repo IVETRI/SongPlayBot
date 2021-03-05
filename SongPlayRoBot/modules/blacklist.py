@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.errors import BadRequest
 from SongPlayRoBot import app
 import SongPlayRoBot.sql.blacklist_sql as sql
-from SongPlayRoBot.SongPlayRoBot import get_arg
+from SongPlayRoBot import get_arg
 
 
 @app.on_message(filters.user(OWNER_ID) & filters.command("blacklist"))
