@@ -1,12 +1,12 @@
 from config import OWNER_ID
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-from Sherlock.modules import *
+from SongPlayRoBot.modules import *
 from pyrogram import idle, filters
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
-from Sherlock import app, LOGGER
-from Sherlock.Sherlock import ignore_blacklisted_users
-from Sherlock.sql.chat_sql import add_chat_to_db
+from SongPlayRoBot import app, LOGGER
+from SongPlayRoBot.SongPlayRoBot import ignore_blacklisted_users
+from SongPlayRoBot.sql.chat_sql import add_chat_to_db
 
 start_text = """
 வணக்கம்! [{}](tg://user?id={}),
