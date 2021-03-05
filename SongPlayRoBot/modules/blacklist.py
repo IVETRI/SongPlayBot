@@ -2,9 +2,9 @@ from pyrogram.types.messages_and_media import message
 from config import OWNER_ID
 from pyrogram import filters
 from pyrogram.errors import BadRequest
-from Sherlock import app
-import Sherlock.sql.blacklist_sql as sql
-from Sherlock.Sherlock import get_arg
+from SongPlayRoBot import app
+import SongPlayRoBot.sql.blacklist_sql as sql
+from SongPlayRoBot.SongPlayRoBot import get_arg
 
 
 @app.on_message(filters.user(OWNER_ID) & filters.command("blacklist"))
